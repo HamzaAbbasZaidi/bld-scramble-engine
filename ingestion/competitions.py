@@ -22,7 +22,7 @@ def fetch_competitions_page(page=1, event_id=None):
     return response.json()
 
 
-def get_recent_competitions(limit=10, event_id=None):
+def get_recent_competitions(limit=100, event_id=None):
     page = 1
     results = []
 
